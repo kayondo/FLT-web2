@@ -23,7 +23,7 @@
             <span class="fe fe-align-right"></span>
         </button>
 
-        <div class="menu unfold" id="menu">
+        <div class="menu" id="menu">
             <div class="lg:flex-grow">
                 <a href="<?php echo get_site_url(); ?>#products"
                    class="menu-item">

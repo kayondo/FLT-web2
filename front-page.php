@@ -77,7 +77,7 @@
                 </figure>
                 <h5 class="font-medium text-lg leading-tight text-gray-800 p-5">
                     <?php the_title(); ?></h5>
-                <p class="p-5 pt-0 text-gray-500"><?php the_time('F j, Y'); ?></p>
+                <p class="p-5 pt-0 text-gray-500 mt-auto"><?php the_time('F j, Y'); ?></p>
             </a>
         </article>
             

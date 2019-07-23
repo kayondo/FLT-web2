@@ -19,12 +19,12 @@
         <?php if ( is_sticky() ) : ?>
 
         <article class="w-full md:w-2/3 p-3 flex">
-            <a href="<?php the_permalink(); ?>" class="rounded-xl shadow bg-white hover:shadow-lg flex">
-                <figure class="h-full w-1/2 rounded-l-xl">
+            <a href="<?php the_permalink(); ?>" class="rounded-xl shadow bg-white hover:shadow-lg flex flex-wrap">
+                <figure class="h-auto md:h-full w-full md:w-1/2 rounded-t-xl md:rounded-l-xl">
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>"
-                         alt="" width="291" class="w-full h-full object-cover rounded-l-xl">
+                         alt="" width="291" class="w-full h-full object-cover rounded-t-xl md:rounded-l-xl">
                 </figure>
-                <div class="w-1/2 p-5 flex flex-col flex-no-wrap h-full">
+                <div class="w-full md:w-1/2 p-5 flex flex-col flex-no-wrap h-auto">
                     <h5 class="font-medium text-xl leading-tight text-gray-800 mb-6">
                     <?php the_title(); ?></h5>
                     <p class="text-gray-600"><?php echo get_the_excerpt(get_the_ID()); ?></p>
@@ -45,7 +45,7 @@
                 </figure>
                 <h5 class="font-medium text-lg leading-tight text-gray-800 p-5">
                 <?php the_title(); ?></h5>
-                <p class="p-5 pt-0 text-gray-500"><?php the_time('F j, Y'); ?></p>
+                <p class="mt-auto p-5 pt-0 text-gray-500"><?php the_time('F j, Y'); ?></p>
             </a>
         </article>
 

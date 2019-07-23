@@ -44,7 +44,7 @@ get_header(); ?>
 
 <!--Key features-->
 <div class="container">
-    <h2 class="heading-2 w-full mb-6 mt-24">Key Features</h2>
+    <h2 class="heading-2 w-full mb-6 mt-32">Key Features</h2>
     <div class="flex flex-wrap -mx-2">
         <!--Savings-->
         <article class="w-full md:w-1/2 p-2 flex mb-4">
@@ -125,28 +125,54 @@ get_header(); ?>
             </div>
         </article>
     </div>
+
+    <h2 class="heading-2 text-gray-700 mt-24">Trusted By</h2>
+    <div class="flex flex-wrap">
+        <div class="w-full pl-4 md:w-1/2">
+            <ul class="list-group mt-4">
+                <li class="list-item">
+                    <a href="">Mushanga SACCO</a>
+                </li>
+                <li class="list-item">
+                    <a href="">URA Staff SACCO</a>
+                </li>
+                <li class="list-item">
+                    <a href="">USALAMA SACCO</a>
+                </li>
+            </ul>
+        </div>
+        <div class="w-full pl-4 md:w-1/2">
+            <ul class="list-group mt-4">
+                <li class="list-item">
+                    <a href="">Buyanja SACCO</a>
+                </li>
+                <li class="list-item">
+                    <a href="">212 SACCO</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 </div>
 
 <!--integration-->
-<section class="section integration">
-    <div class="container">
-        <h2 class="heading-2 mb-6">Integration</h2>
-        <div class="w-full md:w-2/5">
-            <h4 class="font-semibold">Internet and Mobile Banking</h4>
-            <p>Unde minima repellendus facilis commodi tempora non vel facere. Minima et accusantium pariatur dolores
-                dignissimos. Esse magni.</p>
-            <br>
-            <h4 class="font-semibold">ATM and POS Banking</h4>
-            <p>Unde minima repellendus facilis commodi tempora non vel facere. Minima et accusantium pariatur dolores
-                dignissimos. Esse magni.</p>
-            <p class="mt-10">
-                <a href="" class="shadow-lg text-lg rounded-full bg-orange-100 px-6 py-3 bg-brand-yellow">
-                    <span class="fe fe-book-open mr-2"></span>
-                    Read User Manual
-                </a>
-            </p>
-        </div>
+<div class="container py-24">
+    <h2 class="heading-2 mb-6">Integration</h2>
+    <div class="w-full md:w-3/5">
+        <h4 class="font-semibold">Internet and Mobile Banking</h4>
+        <p>Unde minima repellendus facilis commodi tempora non vel facere. Minima et accusantium pariatur dolores
+            dignissimos. Esse magni.</p>
+        <br>
+        <h4 class="font-semibold">ATM and POS Banking</h4>
+        <p>Unde minima repellendus facilis commodi tempora non vel facere. Minima et accusantium pariatur dolores
+            dignissimos. Esse magni.</p>
+        <p class="mt-10">
+            <a href="" class="shadow-lg text-lg rounded-full bg-orange-100 px-6 py-3 bg-brand-yellow">
+                <span class="fe fe-book-open mr-2"></span>
+                Read User Manual
+            </a>
+        </p>
     </div>
-</section>
+</div>
 
 <?php get_footer(); ?>
